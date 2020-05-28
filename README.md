@@ -151,3 +151,9 @@ for row in dataset_info()
     correlation_behavior(row[1])
 end 
 ```
+-------------------------------------------
+#### Usage:
+1. Install Julia 1.x.x version from https://julialang.org/downloads/platform/ and the necessary packages mentioned above.
+2. Keep files of this repo within bin (if you are facing path issues!)
+3. Change the dataset name & p value in main_learn_CRU.jl and execute.
+4. Change the dataset name and execute read_weights_from_CRU.jl
