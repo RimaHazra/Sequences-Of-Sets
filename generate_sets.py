@@ -58,7 +58,7 @@ class main_process:
         self.pred_dist = pred_dist
         self.lastx = lastx
     def load_data(self):
-        rqrd_data = read_required_data(self.pred_dist)
+        rqrd_data = read_required_data(self.pred_dist,self.lastx)
         self.df_data = rqrd_data.read_dev_data()
         self.weights = rqrd_data.read_seq_sets_weights()
         self.seq_dict = rqrd_data.read_seq_data()
