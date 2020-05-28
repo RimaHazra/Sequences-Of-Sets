@@ -157,3 +157,5 @@ end
 2. Keep files of this repo within bin (if you are facing path issues!)
 3. Change the dataset name & p value in main_learn_CRU.jl and execute.
 4. Change the dataset name and execute read_weights_from_CRU.jl
+5. change the inputs in code and run generate_sets.py
+6. change the inputs in code and run measure.py
