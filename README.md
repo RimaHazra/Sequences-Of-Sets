@@ -152,7 +152,7 @@ for row in dataset_info()
 end 
 ```
 -------------------------------------------
-#### Usage:
+#### Usage (as per our requirements):
 1. Install Julia 1.x.x version from https://julialang.org/downloads/platform/ and the necessary packages mentioned above.
 2. Keep files of this repo within bin (if you are facing path issues!)
 3. Change the dataset name & p value in main_learn_CRU.jl and execute.
