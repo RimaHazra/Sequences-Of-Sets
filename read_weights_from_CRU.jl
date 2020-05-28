@@ -1,6 +1,6 @@
 using FileIO
 #Change the dataset
-f = open("pred_on_yakkety_weights.txt","w")
+f = open("data/pred_on_yakkety10_weights.txt","w")
 w = load("models/pred_on_yakkety10-CRU-0.9.jld2","w")
 println(typeof(w))
 for l in w
