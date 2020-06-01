@@ -142,7 +142,7 @@ class setGen_algorithm:
             
             
         
-main = main_process("yakkety","10")
+main = main_process("yakkety","10")#Test distro, number of last x distribution
 main.load_data()
 main.procedure()
         
