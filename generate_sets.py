@@ -127,7 +127,7 @@ class setGen_algorithm:
             T = []
             for ele in sampled_set[1]:
                 rndNum= random.random()
-                if rndNum>=self.p:
+                if rndNum<=self.p:
                     T.append(ele)
             T = list(set(T))
             if len(R)+len(T)>self.size:
