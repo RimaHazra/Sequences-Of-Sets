@@ -23,6 +23,7 @@ warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
 
 data_folder ="data"
 
+
 class read_required_data:
     def __init__(self,pred_dist,lastx):
         self.pdist = pred_dist
